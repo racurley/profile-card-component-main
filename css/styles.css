@@ -32,10 +32,11 @@ hr {
   background-size: 100% 35%;
   background-repeat: no-repeat;
   border-radius: 10px;
+  border-width: 0;
   position: relative;
   margin: 150px auto;
   text-align: center;
-  width: 375px;
+  width: 360px;
   height: 425px;
 }
 
