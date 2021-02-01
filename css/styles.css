@@ -1,0 +1,88 @@
+/************** HTML CSS ************************/
+body {
+  background-color: hsl(185, 75%, 39%);
+  background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+  /*  background-position: -500px -600px, 500px 300px; */
+  background-position: -130% -200%, 200% 150%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+}
+
+hr {
+  border-style: none;
+  border-top: 2px solid hsl(0, 0%, 80%);
+  width: 100%;
+}
+
+/*************** CLASS CSS  *********************/
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.card {
+  background-color: white;
+  background-image: url("../images/bg-pattern-card.svg");
+  background-size: 100% 35%;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  position: relative;
+  margin: 150px auto;
+  text-align: center;
+  width: 375px;
+  height: 425px;
+}
+
+.card-img {
+  border-radius: 100%;
+  border: 5px solid white;
+}
+
+.card-location {
+  font-size: 80%;
+  font-stretch: expanded;
+  font-weight: 300;
+  color: hsl(0, 0%, 59%);
+  padding-bottom: 7px;
+}
+
+.card-name {
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+}
+
+.card-name-age {
+  font-weight: 300;
+  color: hsl(0, 0%, 59%);
+}
+
+.card-profile {
+  margin-top: 105px;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.stat-category {
+  font-size: 60%;
+  font-stretch: extra-expanded;
+  font-weight: 300;
+  color: hsl(0, 0%, 59%);
+}
+
+.stat-number {
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+  margin-bottom: 0;
+}
+
+.stats-table {
+  table-layout: fixed;
+  width: 100%;
+}
